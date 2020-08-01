@@ -3,7 +3,7 @@ node {
        
         git url:'https://github.com/siva244/git-sample.git'   
     }
-    stage("build"){
+       stage("build"){
         sh 'mvn package'
     }
 }
